@@ -1,24 +1,24 @@
 <?php
 
-namespace ezetaFrame\core;
+namespace OGrelo\core;
 
-use ezetaFrame\core\Exceptions\RouteNotFoundException;
+use OGrelo\core\Exceptions\RouteNotFoundException;
 
 class Router
 {
     /** @var string Base url */
     private $base_path;
 
-    /** @var string Current relative url */
+    /** @var string url relativa */
     private $path;
 
-    /** @var Route[] Currently registered routes */
+    /** @var Route[] Rutas registradas */
     public $routes = array();
 
     /**
      * Constructor
      *
-     * @param string $base_path the index url
+     * @param string $base_path la ruta base
      */
     public function __construct($base_path = '')
     {
@@ -115,13 +115,19 @@ class Router
      */
     public function route()
     {
+        $posAjax = strpos($this->path, '/ajax/');
+        if ($posAjax) {
+            $uri = substr($this->path, $posAjax +5);
+        } else {
+            $uri = $this->path;
+        }
         foreach ($this->routes as $route) {
-            if ($route->matches($this->path)) {
+            if ($route->matches($uri)) {
                 return $route->exec();
             }
         }
 
-        throw new RouteNotFoundException("No routes matching {$this->path}");
+        throw new RouteNotFoundException("Ninguna ruta coincide con {$this->path}");
     }
 
     /**

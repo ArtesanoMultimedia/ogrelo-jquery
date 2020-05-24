@@ -1,5 +1,5 @@
 <?php
-namespace ezetaFrame\core\Exceptions;
+namespace OGrelo\core\Exceptions;
 
 use Exception;
 

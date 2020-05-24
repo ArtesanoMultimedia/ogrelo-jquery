@@ -1,17 +1,34 @@
 {
-  "name": "artesanomultimedia/blogezeta",
-  "description": "Sistema de blog simple",
+  "name": "ogrelo/jquery",
+  "description": "Práctica de jQuery de la asignatura Programación Web Avanzada del Grado Multimedia de la UOC. Aplicación para la gestión de reservas de un restaurante mediante jQuery.",
   "minimum-stability": "dev",
   "license": "proprietary",
   "authors": [
     {
       "name": "Carlos Rodríguez López",
-      "email": "artesanomultimedia@gmail.com"
+      "email": "crodrigue1011@uoc.edu"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "BlackrockDigital/startbootstrap-sb-admin-2",
+        "version": "3.3.7+1",
+        "source": {
+          "url": "https://github.com/BlackrockDigital/startbootstrap-sb-admin-2.git",
+          "type": "git",
+          "reference": "v3.3.7+1"
+        }
+      }
     }
   ],
   "require": {
-    "ecoal95/php-router": "dev-master",
-    "ext-mysqli": "*"
+    "twig/twig": "^3.0",
+    "BlackrockDigital/startbootstrap-sb-admin-2": "^3.0",
+    "ext-mysqli": "*",
+    "ext-json": "*",
+    "ext-pdo": "*"
   },
   "require-dev": {
     "phpunit/phpunit": "^9.2@dev",

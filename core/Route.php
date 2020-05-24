@@ -1,5 +1,6 @@
 <?php
-namespace ezetaFrame\core;
+
+namespace OGrelo\core;
 
 /**
  * A class representing a registered route. Each route is composed of a regular expression,
@@ -9,25 +10,25 @@ namespace ezetaFrame\core;
  */
 class Route
 {
-    /** @var string The regular expresion */
+    /** @var string La expresión regular */
     private $expr;
-    /** @var callable The callback function */
+    /** @var callable La función callback */
     private $callback;
-    /** @var array The matches of $expr, which will be the arguments of the callback */
+    /** @var array Las coincidencias de $expr, que serán los argumentos del callback */
     private $matches;
-    /** @var Allowed methods for this route */
+    /** @var array Métodos permitidos para esta ruta */
     private $methods = array('GET', 'POST', 'HEAD', 'PUT', 'DELETE');
 
     /**
      * Constructor
      *
-     * @param string $expr regular expresion to test against
-     * @param function $callback function executed if route matches
-     * @param string|array $methods methods allowed
+     * @param string $expr expresión regular que se comprobará
+     * @param callable $callback función que se llamará si se llama a esta ruta
+     * @param string|array $methods métodos permitidos
      */
     public function __construct($expr, $callback, $methods = null)
     {
-        // Allow an optional trailing backslash
+        // La barra final es opcional
         $this->expr = '#^' . $expr . '/?$#';
         $this->callback = $callback;
 
@@ -37,7 +38,7 @@ class Route
     }
 
     /**
-     * See if route matches with path
+     * Comprueba si la ruta coincide con la solicitada
      *
      * @param string $path
      * @return boolean
@@ -53,9 +54,8 @@ class Route
     }
 
     /**
-     * Execute the callback.
-     * The matches function needs to be called before this and return true.
-     * We don't take the first match since it's the whole path
+     * Ejecuta el callback.
+     * La función matches debe ser llamada previamente y devolver true.
      */
     public function exec()
     {
