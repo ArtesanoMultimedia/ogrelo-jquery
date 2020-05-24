@@ -2,40 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c19a6cec-66dc-45fe-84f5-4238054e08e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Views/reservas/layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/data/flot-data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/data/morris-data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/dist/css/sb-admin-2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/dist/css/sb-admin-2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/dist/js/sb-admin-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/dist/js/sb-admin-2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/gulpfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/js/sb-admin-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/less/sb-admin-2.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/pages/blank.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/pages/buttons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/pages/flot.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/pages/forms.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/pages/grid.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/pages/icons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/pages/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/pages/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/pages/morris.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/pages/notifications.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/pages/panels-wells.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/pages/tables.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/startbootstrap-sb-admin-2/pages/typography.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Assets/css/reservas.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/Assets/css/reservas.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Reserva.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Reserva.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/common/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/common/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/common/partials/navbar-top-links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/reservas/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/reservas/create.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Views/reservas/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/reservas/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Views/reservas/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/reservas/show.html" afterDir="false" />
     </list>
@@ -116,18 +88,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/global.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#7#26#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Models/Reserva.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
@@ -137,28 +97,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ae69d928-e65c-4192-bf82-ed47e4662d03/console_2.sql">
+        <entry file="file://$PROJECT_DIR$/app/Views/reservas/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="55" selection-start-column="55" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consoleApp/Commands/MakeTestCommand.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Views/reservas/create.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3294">
-              <caret line="183" column="21" selection-start-line="183" selection-start-column="21" selection-end-line="183" selection-end-column="21" />
+            <state relative-caret-position="162">
+              <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -166,17 +108,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Views/common/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="140" column="13" selection-start-line="140" selection-start-column="13" selection-end-line="140" selection-end-column="13" />
+            <state relative-caret-position="237">
+              <caret line="71" column="35" lean-forward="true" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Views/common/partials/sidebar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Views/reservas/show.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+            <state>
+              <caret column="20" selection-start-column="20" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -184,31 +135,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Views/reservas/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+            <state>
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Views/reservas/edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="481">
-                <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
+              <first_editor relative-caret-position="-1499">
+                <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
               </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Assets/css/reservas.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -219,8 +170,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -275,7 +226,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Views/common/partials/navbar-sidebar.html" />
         <option value="$PROJECT_DIR$/app/Views/usuarios/index.html" />
         <option value="$PROJECT_DIR$/ezeta" />
         <option value="$PROJECT_DIR$/app/Views/reservas/createl.html" />
@@ -294,7 +244,6 @@
         <option value="$PROJECT_DIR$/app/Models/Usuario.php" />
         <option value="$PROJECT_DIR$/app/Views/base/layout.html" />
         <option value="$PROJECT_DIR$/app/Assets/js/reservas.js" />
-        <option value="$PROJECT_DIR$/app/Views/common/partials/navbar-top-links.html" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/app/Controllers/ReservasController.php" />
         <option value="$PROJECT_DIR$/config/Database.php" />
@@ -310,7 +259,6 @@
         <option value="$PROJECT_DIR$/app/Views/reservas/edit.html" />
         <option value="$PROJECT_DIR$/core/Router.php" />
         <option value="$PROJECT_DIR$/core/ResourceRoute.php" />
-        <option value="$PROJECT_DIR$/app/Views/reservas/create.html" />
         <option value="$PROJECT_DIR$/app/Views/reservas/_form.html" />
         <option value="$PROJECT_DIR$/core/QueryBuilder.php" />
         <option value="$PROJECT_DIR$/core/EntidadBase.php" />
@@ -319,13 +267,16 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/Assets/js/reservas/common.js" />
-        <option value="$PROJECT_DIR$/app/Views/common/layout.html" />
         <option value="$PROJECT_DIR$/app/Assets/css/reservas.css" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/Models/Reserva.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ae69d928-e65c-4192-bf82-ed47e4662d03/console_2.sql" />
         <option value="$PROJECT_DIR$/app/Views/reservas/index.html" />
         <option value="$PROJECT_DIR$/app/Views/reservas/show.html" />
+        <option value="$PROJECT_DIR$/app/Views/reservas/create.html" />
+        <option value="$PROJECT_DIR$/app/Views/reservas/layout.html" />
+        <option value="$PROJECT_DIR$/app/Views/common/partials/navbar-top-links.html" />
+        <option value="$PROJECT_DIR$/app/Views/common/layout.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -419,6 +370,21 @@
               <item name="ogrelo" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Views" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ogrelo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ogrelo" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Views" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ogrelo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ogrelo" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Views" type="462c0819:PsiDirectoryNode" />
               <item name="reservas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -449,7 +415,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
-    <property name="database.console.LAST_STATE" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -511,7 +477,7 @@
       <workItem from="1588367915656" duration="42034000" />
       <workItem from="1588786164419" duration="59806000" />
       <workItem from="1589399117709" duration="32124000" />
-      <workItem from="1590165368471" duration="75015000" />
+      <workItem from="1590165368471" duration="76073000" />
     </task>
     <servers />
   </component>
@@ -524,7 +490,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237680000" />
+    <option name="totallyTimeSpent" value="238738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1587" height="1050" extended-state="0" />
@@ -545,21 +511,20 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="GraphQL" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49639818" weight="0.24368826" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50098234" side_tool="true" visible="true" weight="0.33040616" />
-      <window_info anchor="bottom" id="Database Console" order="14" sideWeight="0.4990177" visible="true" weight="0.33040616" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4950884" visible="true" weight="0.24368826" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5049116" side_tool="true" visible="true" weight="0.24368826" />
+      <window_info anchor="bottom" id="Database Console" order="14" sideWeight="0.4990177" weight="0.33040616" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Mongo Explorer" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.20104781" />
+      <window_info anchor="right" id="Database" order="4" weight="0.20104781" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api.php" />
     <entry file="file://$PROJECT_DIR$/core/ComposerScripts.php" />
     <entry file="file://$PROJECT_DIR$/app/Controllers/UsuariosController.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -593,13 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" selection-start-line="2" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Views/common/partials/navbar-top-links.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -690,13 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Views/common/partials/sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Utils/QueryBuilder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -742,13 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Views/reservas/_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="41" column="89" selection-start-line="41" selection-start-column="89" selection-end-line="41" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/ResourceRoute.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -776,26 +720,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Views/reservas/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Assets/js/reservas.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4141">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Views/reservas/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3294">
-          <caret line="183" column="21" selection-start-line="183" selection-start-column="21" selection-end-line="183" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -849,18 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="481">
-            <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/global.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -885,10 +803,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Reserva.php">
+    <entry file="file://$PROJECT_DIR$/app/Views/reservas/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="34" column="69" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="69" />
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Views/reservas/show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Views/reservas/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Views/reservas/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Views/reservas/_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="41" column="89" selection-start-line="41" selection-start-column="89" selection-end-line="41" selection-end-column="89" />
         </state>
       </provider>
     </entry>
@@ -899,24 +845,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Views/reservas/index.html">
+    <entry file="file://$PROJECT_DIR$/app/Models/Reserva.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+        <state relative-caret-position="288">
+          <caret line="34" column="69" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Views/reservas/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Views/common/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="140" column="13" selection-start-line="140" selection-start-column="13" selection-end-line="140" selection-end-column="13" />
+        <state relative-caret-position="237">
+          <caret line="71" column="35" lean-forward="true" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Views/reservas/show.html">
+    <entry file="file://$PROJECT_DIR$/app/Views/common/partials/sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Views/common/partials/navbar-top-links.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1499">
+            <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>

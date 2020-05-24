@@ -30,7 +30,7 @@ Contiene los archivos específicos del proyecto. El CSS y el Javascript, en la c
 
 #### `/app/Assets`
 
-Contiene el css, generado a partir de SCSS y el javascript genérico. Aunque actualmente, gran parte del javascript se está implementando directamente dentro de las vistas, acercándolo a la distribución que tendrá en la práctica de Vue (template y script en el mismo archivo).
+Contiene el css, generado a partir de SCSS. También se incluiría aquí el javascript genérico. Aunque actualmente, el javascript se implementa directamente dentro de las vistas, acercándolo a la distribución que tendrá en la práctica de Vue (template y script en el mismo archivo).
 
 #### `/app/Controllers`
 
@@ -50,9 +50,15 @@ Las vistas específicas del dominio, se crean dentro de su propia carpeta (`View
 
 En la carpeta `Views/common` van los archivos comunes, propios de la plantilla.
 
+Aquí se encuentra actualmente el javascript objeto de evaluación, concretamente en los archivos:
+
+* `/reservas/create.html`
+* `/reservas/index.html`
+
+
 >**Faltaría:**
 >
->- [ ] Implementar los botones pertenecientes al dominio de `Views/common/partials/navbar-top-links.html` dentro de `Views/reservas`. Tal vez a través de un layout específico que extienda a `Views/common/layout`.
+>- [x] Implementar los botones pertenecientes al dominio de `Views/common/partials/navbar-top-links.html` dentro de `Views/reservas`. Tal vez a través de un layout específico que extienda a `Views/common/layout`.
 >- [ ] Implementar en `Views/reservas/_form.html` los métodos `helper.input()` y `helper.submit()`, que utilizan las plantillas de `Views/forms`.
 >- [ ] Migrar a la [última versión de SB Admin](https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/releases). (Seguí un tutorial que implementaba la versión 3 y cuando me di cuenta de que existía la 4, ya había avanzado demasiado).
 

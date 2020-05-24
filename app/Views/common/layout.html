@@ -66,7 +66,9 @@
         {% include 'common/partials/navbar-header.html' %}
         <!-- /.navbar-header -->
 
-        {% include 'common/partials/navbar-top-links.html' %}
+        <ul class="nav navbar-top-links navbar-right">
+            {% block navbar_top_links %}{% endblock %}
+        </ul>
         <!-- /.navbar-top-links -->
 
         {% include 'common/partials/sidebar.html' %}
@@ -115,31 +117,7 @@
 <!-- Custom Theme JavaScript -->
 <script src="/vendor/BlackrockDigital/startbootstrap-sb-admin-2/js/sb-admin-2.js"></script>
 
-{% block javascripts %}
-    <script>
-        $(function () {
-            let $boton24h = $('#boton24h');
-            {% if index24horas is not defined %}
-                $boton24h.removeClass('hidden');
-            {% endif %}
-
-            compruebaReservas24Horas();
-            setInterval(compruebaReservas24Horas, 60000);
-
-            function compruebaReservas24Horas() {
-                let url = '/ajax/reservas/proximas24horas/count';
-                $.getJSON(url, function (res) {
-                    if (res.num_reservas && res.num_reservas > 0) {
-                        $boton24h.fadeIn();
-                    } else {
-                        $boton24h.fadeOut();
-                    }
-                });
-            }
-
-        });
-    </script>
-{% endblock %}
+{% block javascripts %}{% endblock %}
 </body>
 
 </html>
