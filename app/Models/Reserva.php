@@ -23,6 +23,7 @@ class Reserva extends EntidadBase
 
     // Para algunas funciones podemos utilizar las funciones genéricas de EntidadBase
     // Otras las tenemos que reescribir de acuerdo al Dominio con el que trabajamos.
+    // En este caso, sobreescribimos la función index(), para que por defecto muestre sólo las
 
     public function index($fecha_desde = null, $fecha_hasta = null, $length = false)
     {
@@ -37,6 +38,7 @@ class Reserva extends EntidadBase
             $query .= ' AND fecha <= ?';
             $fechas[] = $fecha_hasta;
         }
+        $query .= ' ORDER BY fecha';
         if ($length) {
             $result = $this->table->query($query, $fechas)->fetchArray();
         } else {

@@ -157,4 +157,8 @@ Es la carpeta en la que Composer guardará las dependencias.
 
 ## Añadir un nuevo dominio
 
-Supongamos que queremos añadir un nuevo Dominio a nuestra aplicación. Tendríamos que empezar por crear el Modelo y el Controlador, añadir un enlace al sidebar en /app/Views/common/partials/sidebar.html, 
+Para añadir un nuevo Dominio a nuestra aplicación (Empleados, Turnos,...), tendríamos que:
+
+* Crear el **Modelo**, el **Controlador** y las **Vistas**.
+* Añadir un enlace al sidebar en `/app/Views/common/partials/sidebar.html`.
+* Añadir las rutas en `routes/web.php`.

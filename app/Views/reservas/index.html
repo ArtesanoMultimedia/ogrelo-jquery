@@ -74,10 +74,11 @@
     <script>
 
         $('#reservas').DataTable({
+            order: [0, 'asc' ],
             responsive: true,
             language: {
                 url: "https://cdn.datatables.net/plug-ins/1.10.21/i18n/Spanish.json"
-            }
+            },
         });
 
         function detalle(id) {
@@ -126,7 +127,7 @@
                                             .remove()
                                             .draw();
 
-                                        // Dejo comentada la versión JQuery a efectos académicos
+                                        // Dejo comentada la versión sin plugin a efectos académicos
                                         // $fila.slideUp('slow', () => {
                                         //     $fila.remove();
                                         // })
@@ -136,6 +137,8 @@
                                 $fila.removeClass('danger');
                             }
                         });
+                } else {
+                    $fila.removeClass('danger');
                 }
             })
 
